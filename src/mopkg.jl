@@ -1,6 +1,6 @@
 module mopkg
 
-"function minimize function with one variable using Newton_Raphson metod as arguments take function , derivative of this function and start point"
+"function minimize function with one variable using Newton_Raphson metod as arguments take function , derivative of this function and start point."
 function Newton_Raphson(f, df, x0; ϵ = 1e-9 )
     new, old = x0, Inf
     i = 0
